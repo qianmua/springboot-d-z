@@ -1,0 +1,11 @@
+server:
+  port: 8021
+dubbo:
+  application:
+    name: springboot-dubbo-provider
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  # 服务端口
+  protocol:
+    port: 9021
