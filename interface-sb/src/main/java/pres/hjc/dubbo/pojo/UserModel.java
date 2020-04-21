@@ -1,5 +1,9 @@
 package pres.hjc.dubbo.pojo;
 
+import lombok.Data;
+
+import java.io.Serializable;
+
 /**
  * Created by IntelliJ IDEA.
  *
@@ -9,5 +13,11 @@ package pres.hjc.dubbo.pojo;
  * @date 2020/4/21
  * @time 20:27
  */
-public class UserModel {
+@Data
+public class UserModel implements Serializable {
+    private String id;
+    private String name;
+    private String uid;
+    private String cerateDate;
+    private long version;
 }

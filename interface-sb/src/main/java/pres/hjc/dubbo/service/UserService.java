@@ -15,4 +15,6 @@ import java.util.List;
  */
 public interface UserService {
     List<UserModel> queryAll();
+
+    UserModel queryByUid(String uid);
 }

@@ -23,4 +23,9 @@ public class UserServiceImpl implements UserService {
     public List<UserModel> queryAll() {
         return null;
     }
+
+    @Override
+    public UserModel queryByUid(String uid) {
+        return null;
+    }
 }
