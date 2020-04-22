@@ -5,13 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pres.hjc</groupId>
-    <artifactId>dubbo-service</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>common-mapping</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>service-info</module>
-        <module>service-products</module>
-    </modules>
 
 
 </project>

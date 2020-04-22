@@ -5,13 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pres.hjc</groupId>
-    <artifactId>dubbo-service</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>api-products</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>service-info</module>
-        <module>service-products</module>
-    </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>pres.hjc</groupId>
+            <artifactId>common-entity</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
