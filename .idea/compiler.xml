@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consumer" />
-        <module name="serviceprovider" />
         <module name="interfacesb" />
+        <module name="commonentity" />
+        <module name="commontyop" />
+        <module name="serviceinfo" />
+        <module name="apiinfo" />
+        <module name="serviceprovider" />
+        <module name="consumer" />
+        <module name="manageadmin" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer" options="-parameters" />
+      <module name="dubbo-common" options="-parameters" />
       <module name="serviceprovider" options="-parameters" />
     </option>
   </component>

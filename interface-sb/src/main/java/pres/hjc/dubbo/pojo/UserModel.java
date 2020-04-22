@@ -15,7 +15,7 @@ import java.io.Serializable;
  */
 @Data
 public class UserModel implements Serializable {
-    private String id;
+    private long id;
     private String name;
     private String uid;
     private String cerateDate;

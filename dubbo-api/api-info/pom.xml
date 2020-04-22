@@ -5,18 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pres.hjc</groupId>
-    <artifactId>springboot-dubbo</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>api-info</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>interface-sb</module>
-        <module>service-provider</module>
-        <module>consumer</module>
-        <module>dubbo-common</module>
-        <module>dubbo-api</module>
-        <module>dubbo-service</module>
-        <module>dubbo-manage</module>
-    </modules>
 
 
 </project>
