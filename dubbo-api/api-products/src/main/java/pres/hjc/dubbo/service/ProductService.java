@@ -1,5 +1,9 @@
 package pres.hjc.dubbo.service;
 
+import pres.hjc.dubbo.entity.Product;
+
+import java.util.List;
+
 /**
  * Created by IntelliJ IDEA.
  *
@@ -10,4 +14,6 @@ package pres.hjc.dubbo.service;
  * @time 14:15
  */
 public interface ProductService {
+
+    List<Product> queryAll();
 }

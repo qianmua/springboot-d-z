@@ -1,5 +1,7 @@
 package pres.hjc.dubbo.entity;
 
+import java.io.Serializable;
+
 /**
  * Created by IntelliJ IDEA.
  *
@@ -9,5 +11,5 @@ package pres.hjc.dubbo.entity;
  * @date 2020/4/22
  * @time 13:36
  */
-public class UsersModel {
+public class UsersModel implements Serializable {
 }
