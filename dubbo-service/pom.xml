@@ -11,6 +11,7 @@
     <modules>
         <module>service-info</module>
         <module>service-products</module>
+        <module>service-item</module>
     </modules>
 
 

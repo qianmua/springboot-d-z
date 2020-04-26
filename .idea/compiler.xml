@@ -7,18 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="commonmapping" />
         <module name="apiproducts" />
         <module name="interfacesb" />
-        <module name="dubbo-freemarker" />
-        <module name="commonentity" />
-        <module name="commonmapping" />
-        <module name="commontyop" />
-        <module name="serviceinfo" />
-        <module name="apiinfo" />
-        <module name="serviceprovider" />
-        <module name="serviceproducts" />
-        <module name="consumer" />
         <module name="manageadmin" />
+        <module name="consumer" />
+        <module name="api-item-service" />
+        <module name="serviceproducts" />
+        <module name="service-item" />
+        <module name="serviceprovider" />
+        <module name="serviceinfo" />
+        <module name="commontyop" />
+        <module name="commonentity" />
+        <module name="apiinfo" />
+        <module name="dubbo-freemarker" />
       </profile>
     </annotationProcessing>
   </component>
@@ -30,6 +32,7 @@
       <module name="dubbo-common" options="-parameters" />
       <module name="dubbo-freemarker" options="-parameters" />
       <module name="manageadmin" options="-parameters" />
+      <module name="service-item" options="-parameters" />
       <module name="serviceprovider" options="-parameters" />
     </option>
   </component>
