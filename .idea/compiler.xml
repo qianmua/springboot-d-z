@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apiproducts" />
         <module name="interfacesb" />
+        <module name="dubbo-freemarker" />
         <module name="commonentity" />
         <module name="commonmapping" />
         <module name="commontyop" />
@@ -27,6 +28,7 @@
       <module name="commonmapping" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="dubbo-common" options="-parameters" />
+      <module name="dubbo-freemarker" options="-parameters" />
       <module name="manageadmin" options="-parameters" />
       <module name="serviceprovider" options="-parameters" />
     </option>

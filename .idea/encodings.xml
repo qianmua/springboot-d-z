@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/dubbo-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-common/common-entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-common/common-mapping" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-freemarker" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-manage/manage-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-provider" charset="UTF-8" />
   </component>

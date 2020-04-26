@@ -16,6 +16,7 @@
         <module>dubbo-api</module>
         <module>dubbo-service</module>
         <module>dubbo-manage</module>
+        <module>dubbo-freemarker</module>
     </modules>
 
 

@@ -20,10 +20,8 @@ import java.io.FileNotFoundException;
  */
 public class FileUoloadController {
 
-
     @Autowired
     private FastFileStorageClient fastFileStorageClient;
-
 
     @GetMapping("upload")
     public String fileUpload(){
